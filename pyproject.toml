@@ -12,7 +12,7 @@ license = {text = "MIT"}
 keywords = ["sqlmap", "sql-injection", "security", "pentest", "gui"]
 
 authors = [
-    {name = "RootX", email = "rootx.202@example.com"},
+    {name = "RootX"},
 ]
 
 classifiers = [
