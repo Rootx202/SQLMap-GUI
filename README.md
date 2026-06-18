@@ -4,6 +4,7 @@
   <img src="https://img.shields.io/badge/sqlmap-FF6600?style=for-the-badge&logo=sqlite&logoColor=white" alt="sqlmap">
   <img src="https://img.shields.io/badge/License-MIT-yellow?style=for-the-badge" alt="License">
   <img src="https://img.shields.io/badge/Version-2.0-00d4aa?style=for-the-badge" alt="Version">
+  <img src="https://img.shields.io/badge/PyPI-3775A9?style=for-the-badge&logo=pypi&logoColor=white" alt="PyPI">
 </p>
 
 <p align="center">
@@ -53,6 +54,15 @@ A professional, feature-rich graphical user interface built with **PyQt6** for [
 
 ## 🚀 Installation
 
+### Quick Install (via PyPI)
+
+```bash
+pip install sqlmap-pro-gui
+sqlmap-gui
+```
+
+### Manual Install (from source)
+
 ```bash
 # 1. Clone the repository
 git clone https://github.com/Rootx202/SQLMap-GUI.git
@@ -65,14 +75,14 @@ python3 -m venv venv
 source venv/bin/activate      # Linux / macOS
 # or: venv\Scripts\activate   # Windows
 
-# 4. Install dependencies
-pip install PyQt6
+# 4. Install the package
+pip install .
 
 # 5. Run the application
-python3 main.py
+sqlmap-gui
 ```
 
-> **Note:** Ensure `sqlmap` is installed and accessible from your terminal before running the GUI.
+> **Note:** Ensure `sqlmap` is installed and accessible from your terminal before running the GUI (`apt install sqlmap` on Debian/Kali or download from [sqlmap.org](https://sqlmap.org)).
 
 ---
 
